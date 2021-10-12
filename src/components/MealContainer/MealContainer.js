@@ -7,6 +7,11 @@ import "./MealContainer.css";
 
 const MealContainer = () => {
   const [meals, setMeals] = useState([]);
+  const [selectedMeals, setSelectedMeals] = useState([]);
+
+  const handleClick = (meal) => {
+    setSelectedMeals([...selectedMeals, meal]);
+  };
 
   useEffect(() => {
     axios
@@ -33,7 +38,13 @@ const MealContainer = () => {
           {
             // map meals
             meals.length > 0 ? (
-              meals.map((meal) => <SingleMeal key={meal.idMeal} meal={meal} />)
+              meals.map((meal) => (
+                <SingleMeal
+                  key={meal.idMeal}
+                  meal={meal}
+                  handleClick={handleClick}
+                />
+              ))
             ) : (
               <Spinner />
             )
@@ -41,7 +52,7 @@ const MealContainer = () => {
         </div>
 
         <div>
-          <MealDetails />
+          <MealDetails selectedMeals={selectedMeals} />
         </div>
       </section>
     </main>

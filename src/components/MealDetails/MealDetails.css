@@ -1,0 +1,33 @@
+.meal__details h6 {
+  text-align: center;
+}
+
+.meal__details ol {
+  background-color: #f8f7f5;
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.meal__details ol li {
+  list-style-type: lower-roman;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.meal__details ol li h6 {
+  font-size: 13px;
+  line-height: 17px;
+  padding-left: 6px;
+}
+
+.meal__details ol li img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
