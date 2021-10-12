@@ -47,3 +47,19 @@
   font-size: 14px;
   font-weight: 700;
 }
+
+/* main container */
+
+.main__container {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  gap: 0 30px;
+}
+
+/* meal container */
+
+.meal__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}

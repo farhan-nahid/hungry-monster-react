@@ -1,0 +1,14 @@
+.loading__spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: span 4;
+}
+
+.loading__spinner img {
+  width: 450px;
+  text-align: center;
+  height: 450px;
+  display: flex;
+  margin: 0 auto;
+}

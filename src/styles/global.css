@@ -20,6 +20,10 @@ a {
   text-decoration: none;
 }
 
+img {
+  width: 100%;
+}
+
 h1,
 h2,
 h3,
@@ -84,6 +88,7 @@ li {
 
 .container {
   width: 1400px;
+  margin: 0 auto;
 }
 
 @media only screen and (max-width: 1500px) {

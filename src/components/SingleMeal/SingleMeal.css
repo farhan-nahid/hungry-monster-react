@@ -1,0 +1,25 @@
+.meal__card {
+  border-radius: 10px;
+  background-color: #f8f7f5;
+  cursor: pointer;
+  overflow: auto;
+}
+
+.meal__card img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.meal__card img:hover {
+  transform: translateX(30deg);
+}
+
+.meal__card h4 {
+  color: #383838;
+  font-weight: 900;
+  font-size: 23px;
+  text-align: center;
+  align-content: center;
+  line-height: 30px;
+  padding: 10px 0;
+}

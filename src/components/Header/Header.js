@@ -15,7 +15,7 @@ const Header = () => {
         </ul>
 
         <input type="checkbox" id="click" />
-        <label for="click" className="menu__button">
+        <label htmlFor="click" className="menu__button">
           <i className="fas fa-bars"></i>
         </label>
 
