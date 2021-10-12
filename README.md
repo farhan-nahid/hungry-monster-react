@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+## রিভিশন চেকলিস্ট
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+১. তোমার পুরানো বন্ধু themealdb এর কাছে যাও। সেখানে সার্চ করে খাবারের এর ডাটা লোড করার একটা api আছে। সেটা খুঁজে বের করো। সিম্পলভাবেই আছে। একটু খুঁজলেই পাবে। তারপর প্রথমে একটা API লিংক সেট করে ফেলো। যেটা দিয়ে তুমি যত খাবারের মধ্যে "a" আছে সেই খাবার এর ডাটা লোড করতে পারবে। তারপর সেই url/api এর লিংক দিয়ে তোমার react প্রজেক্ট এর মধ্যে ডাটা লোড করো। শর্ত হচ্ছে App.js এর মধ্যে ডাটা লোড করতে পারবে না। অন্য কোন একটা কম্পোনেন্ট এ করতে হবে। কি কম্পোনেন্ট এ করবে। সেটা তোমার সিদ্ধান্ত।
 
-## Available Scripts
+২. ওয়েবসাইট এ একটা হেডার দিয়ে দাও। তোমার ইচ্ছা মতো একটা দিয়ে দাও। এইটার জন্য বেশি সময় দিও না। তবে আলাদা একটা কম্পোনেন্ট বানাও
 
-In the project directory, you can run:
+৩. প্রত্যেকটা meal দেখাও। meal এর মধ্যে meal রিলেটেড কিছু তথ্য দেখাও। এবং ছবি দেখাও।
 
-### `yarn start`
+৪. কোন একটা meal এ ক্লিক করলে সেই meal এর নাম ডানপাশে যোগ হয়ে যাবে। অনেকটা ema-john এর ডানপাশে যে শপিং কার্ট ছিল (যেখানে টোটাল দেখানো হতো ) সেখানে টোটাল হিসাব করবে না। বরং যে যে মিল এ ক্লিক করেছে সেটার নাম দেখাবে। কিভাবে দেখাবে। চেষ্টা করে দেখো। না পারলে আমাদের গরূপে জিজ্ঞেস করো।
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+৫. যে বাটনে ক্লিক করবে সেই বাটনে font awesome দিয়ে কোন একটা আইকন যোগ করো।
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+৬. তোমার ওয়েবসাইট এর কোড তোমার গিটহাব এ রাখবে। এবং সাইট নেটলিফাই বা অন্য কোথাও হোস্ট করে লাইভ লিংক তৈরি করবে।
 
-### `yarn test`
+৭. কিছু জিনিস খেয়াল রাখবে। ফোল্ডার স্ট্রাকচার , কম্পোনেন্ট এর নাম, ডাটা কিভাবে পাঠাচ্ছ। স্টেট্ কোথায় ডিক্লেয়ার করতেছো। destructuring ইউজ করতেছো কিনা।
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## চ্যালেঞ্জিং
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+৮. (চ্যালেঞ্জিং + অপশনাল) চেষ্টা করো মডিউল ৪৯ এর মতো করে। সার্চ ফাংশনালিটি ইমপ্লিমেন্ট করতে পারো কিনা। অর্থাৎ এইটার জন্য তুমি একটা ইনপুট ফিল্ড যোগ করবে। ইউজার কি লিখতেছে সেটা onChange এ ক্যাপচার করবে। সেই অনুসারে API এর ULR তা হালকা একটু চেইঞ্জ করে ফেলবে। এই অংশ একটু ট্রিকি হয়ে যেতে পারে। কারো কারো জন্য। তারপর সার্চ করে পাওয়া রেজাল্ট UI তে দেখায় ফেলবে।
