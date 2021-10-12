@@ -1,0 +1,49 @@
+/* Meal Search Box */
+
+.meal__search__container {
+  width: 100%;
+  max-width: 570px;
+  margin: 50px auto;
+  display: flex;
+  align-items: stretch;
+  border-radius: 6px;
+  position: relative;
+  overflow: hidden;
+}
+
+.meal__search__container::before {
+  content: "";
+  position: absolute;
+  top: calc(50% - 12px);
+  left: 15px;
+  width: 24px;
+  height: 24px;
+  background: url(../../images/search.svg) no-repeat center center / contain;
+}
+
+#meal__search__input {
+  border: 2px solid transparent;
+  background-color: #f8f7f5;
+  padding: 18px 18px 18px 50px;
+  width: calc(100% - 100px);
+}
+
+#meal__search__input::placeholder {
+  color: #989898;
+}
+
+#meal__search__input:focus {
+  outline: 0;
+  border: 2px solid #f06c4e;
+}
+
+#meal__search__button {
+  background-color: #f06c4e;
+  border: 0;
+  color: #ffffff;
+  padding: 15px 20px;
+  width: 100px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+}

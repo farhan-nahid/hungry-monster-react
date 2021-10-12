@@ -15,3 +15,79 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
 }
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+ol {
+  margin: 0;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 65px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 55px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 50px;
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+}
+
+h5 {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 40px;
+}
+
+h6 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 35px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+li {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  list-style-type: none;
+}
+
+.container {
+  width: 1400px;
+}
+
+@media only screen and (max-width: 1500px) {
+  .container {
+    width: 90%;
+  }
+}

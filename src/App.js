@@ -1,7 +1,14 @@
+import Header from "./components/Header/Header";
+import MealContainer from "./components/MealContainer/MealContainer";
 import "./styles/global.css";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <>
+      <Header />
+      <MealContainer />
+    </>
+  );
 }
 
 export default App;
