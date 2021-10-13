@@ -4,31 +4,37 @@
 
 .meal__details ol {
   margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
 }
 
 .meal__details ol li {
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
   background-color: #f8f7f5;
-  padding: 10px;
+  padding: 5px;
   border-radius: 10px;
 }
 
 .meal__details ol li h6 {
   font-size: 13px;
   line-height: 17px;
-  padding-left: 6px;
+  padding: 8px 0 0 0;
 }
 
 .meal__details ol li img {
   border-radius: 50%;
   height: 50px;
   width: 50px;
+  display: block;
+  margin: 0 auto;
 }
 
 @media only screen and (max-width: 500px) {
   .meal__details ol li {
     flex-direction: column;
+  }
+
+  .meal__details ol {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
