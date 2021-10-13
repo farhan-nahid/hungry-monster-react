@@ -37,17 +37,6 @@
   border: 2px solid #f06c4e;
 }
 
-#meal__search__button {
-  background-color: #f06c4e;
-  border: 0;
-  color: #ffffff;
-  padding: 15px 20px;
-  width: 100px;
-  cursor: pointer;
-  font-size: 14px;
-  font-weight: 700;
-}
-
 /* main container */
 
 .main__container {
@@ -62,4 +51,22 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+  .meal__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .main__container {
+    grid-template-columns: 2fr 1fr;
+  }
+  .meal__container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .meal__search__container {
+    margin: 100px 0 20px 0;
+  }
 }

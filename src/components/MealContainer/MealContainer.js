@@ -55,7 +55,6 @@ const MealContainer = () => {
           placeholder="Search for a Meal..."
           onChange={handleChange}
         />
-        <button id="meal__search__button">Search</button>
       </section>
       <section className="main__container">
         <div className="meal__container">

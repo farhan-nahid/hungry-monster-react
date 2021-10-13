@@ -14,11 +14,7 @@
   padding: 10px;
   border-radius: 10px;
 }
-/* 
-.meal__details ol li:nth-last-child() {
-  margin-bottom: 0;
-}
- */
+
 .meal__details ol li h6 {
   font-size: 13px;
   line-height: 17px;
@@ -29,4 +25,10 @@
   border-radius: 50%;
   height: 50px;
   width: 50px;
+}
+
+@media only screen and (max-width: 500px) {
+  .meal__details ol li {
+    flex-direction: column;
+  }
 }
