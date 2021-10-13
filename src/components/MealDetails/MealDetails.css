@@ -3,23 +3,22 @@
 }
 
 .meal__details ol {
-  background-color: #f8f7f5;
-  padding: 20px;
   margin-top: 50px;
-  border-radius: 10px;
 }
 
 .meal__details ol li {
-  list-style-type: lower-roman;
   margin-bottom: 20px;
   display: flex;
-  justify-content: center;
   align-items: center;
-  background-color: #ffffff;
+  background-color: #f8f7f5;
   padding: 10px;
   border-radius: 10px;
 }
-
+/* 
+.meal__details ol li:nth-last-child() {
+  margin-bottom: 0;
+}
+ */
 .meal__details ol li h6 {
   font-size: 13px;
   line-height: 17px;

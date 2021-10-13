@@ -2,7 +2,6 @@ import React from "react";
 import "./MealDetails.css";
 
 const MealDetails = ({ selectedMeals }) => {
-  console.log(selectedMeals);
   return (
     <div className="meal__details">
       <h6>Meal Details</h6>
